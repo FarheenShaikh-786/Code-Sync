@@ -13,11 +13,14 @@ function WorkSpace() {
             className="absolute left-0 top-0 w-full max-w-full flex-grow overflow-x-hidden md:static"
             style={{ height: viewHeight }}
         >
+                        {/* 
             {activityState === ACTIVITY_STATE.DRAWING ? (
                 <DrawingEditor />
-            ) : (
+            ) : ( 
+            */}
                 <EditorComponent />
-            )}
+            {/* )} */}
+
         </div>
     )
 }
